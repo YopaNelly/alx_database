@@ -1,3 +1,3 @@
 -- command to list tables of mt DATABASE
 
-SELECT * TABLE FROM my_database;
+SHOW TABLES IN my_database;
