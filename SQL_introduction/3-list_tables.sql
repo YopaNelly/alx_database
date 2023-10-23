@@ -1,3 +1,3 @@
 -- command to list tables of mt DATABASE
 
-SHOW TABLES IN mysql;
+SELECT * FROM information_schema.tables WHERE table_schema = 'mysql';
