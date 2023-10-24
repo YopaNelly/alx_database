@@ -1,0 +1,4 @@
+-- code that create a table and a DATABASE
+
+CREATE DATABASE IF NOT EXISTS hbtn_0d_usa;
+CREATE TABLE IF NOT EXISTS hbtn_0d_usa.states(id INT AUTO DEFAULT 1 UNIQUE PRIMARY KEY, name VARCHAR(256));
